@@ -6,7 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "",
-  "license": "BSD"
+  "repository": "https://github.com/snataas/herokutest.git",
+  "author": "Staale Nataas",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~4.2.0",
+    "logfmt": "~1.1.2"
+  }
+  
+  // not sure
+  {
+    "engines": {
+      "node": "0.10.x"
+    }
+  }
+  // not sure end
 }
